@@ -41,11 +41,11 @@ pipeline {
             steps {
                 script {
                     
-                     git credentialsId: 'Github_credentials', url: 'https://github.com/bsarathkumar42/myspringapp1.git'
+                     git credentialsId: 'Github_credentials', url: 'https://github.com/bsarathkumar42/test.git'
                 }
             }
         }
-        stage("Build Artifact") {
+        stage("mvn build") {
             steps {
                 script {
                              
