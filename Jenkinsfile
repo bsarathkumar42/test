@@ -30,7 +30,7 @@ pipeline {
 		  
     }
    /* stages {
-    stage('Environment') {
+    stage('Environment _variable') {
       steps {
         echo " The environment is ${params.Env}"
       }
